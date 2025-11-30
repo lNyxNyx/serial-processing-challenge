@@ -51,40 +51,26 @@ O desafio consistia em criar um programa capaz de:
 │   │   │   └── com
 │   │   │       └── sidnei
 │   │   │           └── desafio
-│   │   │               ├── FileWriterService.java
-│   │   │               ├── FileReaderService.java
-│   │   │               ├── SerialProcessor.java
-│   │   │               ├── SerialValidator.java
-│   │   │               └── Main.java
+│   │   │               ├── FileWriterService.java  → Leitura de arquivos
+│   │   │               ├── FileReaderService.java → Escrita de arquivos
+│   │   │               ├── SerialProcessor.java → Lógica de negócio (DV, país, ASCII)
+│   │   │               ├── SerialValidator.java → Validações de tamanho e verificação
+│   │   │               └── Main.java  → Orquestração das etapas
 │   │   └── resources
-│   |    └── data
-│   |        ├── input
-│   |        │   ├── paises.txt
-│   |        │   ├── serieParaRelatorio.txt
-│   |        │   ├── serieParaVerificar.txt
-│   |        │   └── serieSemDV.txt
-│   |        └── output
-│   |            ├── listaTotais.txt
-│   |            ├── serieComDV.txt
-│   |            └── serieVerificada.txt
-│   |            
-│   |           
-│   |            
+│   |       └── data
+|   │           ├── input  → Arquivos de entrada
+|   │           │   ├── paises.txt
+|   |           │   ├── serieParaRelatorio.txt
+|   │           │   ├── serieParaVerificar.txt
+|   │           │   └── serieSemDV.txt
+|   │           └── output  → Arquivos de saída
+|   │               ├── listaTotais.txt 
+|   │               ├── serieComDV.txt 
+|   │               └── serieVerificada.txt           
 │   └── test
 │       └── java
 |── target
-|   ├── classes
-|   │   └── com
-|   │       └── sidnei
-|   │           └── desafio
-|   │               ├── FileReaderService.class  → Leitura de arquivos
-|   │               ├── FileWriterService.class  → Escrita de arquivos
-|   │               ├── SerialProcessor.class → Lógica de negócio (DV, país, ASCII)
-|   │               ├── SerialValidator.class  → Validações de tamanho e verificação
-|   │               └── Main.class   → Orquestração das etapas
-|   └── data
-|       ├── input
-|       └── output
+|   
 ├── pom.xml
 └── README.md
 
@@ -206,5 +192,5 @@ A classe `Main` executa automaticamente as 3 etapas do desafio:
 **Sidnei Ferreira Jr.**  
 Desenvolvedor Full Stack
 
-GitHub: [https://github.com/lNyxNyx](https://github.com/lNyxNyx)
-LinkedIn: [https://www.linkedin.com/in/sidnei-ferreira-jr1/](https://www.linkedin.com/in/sidnei-ferreira-jr1/)
+GitHub: [lNyxNyx](https://github.com/lNyxNyx)
+LinkedIn: [sidnei-ferreira-jr1](https://www.linkedin.com/in/sidnei-ferreira-jr1/)
