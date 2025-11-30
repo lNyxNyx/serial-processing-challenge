@@ -193,4 +193,4 @@ A classe `Main` executa automaticamente as 3 etapas do desafio:
 Desenvolvedor Full Stack
 
 GitHub: [lNyxNyx](https://github.com/lNyxNyx)
-LinkedIn: [sidnei-ferreira-jr1](https://www.linkedin.com/in/sidnei-ferreira-jr1/)
+LinkedIn: [Sidnei Ferreira jr](https://www.linkedin.com/in/sidnei-ferreira-jr1/)
